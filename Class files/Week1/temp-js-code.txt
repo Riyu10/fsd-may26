@@ -1,0 +1,13 @@
+const eligibleAge = 18;
+
+const userAge = 22;
+
+if(eligibleAge < userAge){
+    console.log('user is eligible to vote')
+}
+else{
+    console.log('user is not eligible to vote')
+} 
+
+naman is xyz 
+naman is abcd 

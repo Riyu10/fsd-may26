@@ -1,0 +1,61 @@
+1. We need three fundamental technologies to build any website's frontend
+    a. HTML 
+    b. CSS
+    c. Javascript 
+
+2. Client Server Architecture -> 
+    Getting information for a website is one of the examples of the client server architecture. 
+
+
+Developers Tools  | Web Tools | chrome web tools ->
+    1. Developer super pack 
+    2. Insights | Debugging help | 
+    3. Internal information provide 
+
+    How to access or bring them on chrome -> 
+
+    Throughout the course -> Chrome browser -> 
+        98% almost all things are available on other browsers as well. 
+
+    Deep dive into chrome web tools
+
+We completely understood request response cycle but how does browser know whom to request the data from?
+
+
+Few things that are happening in real world but we cannot discuss right now? 
+Just for telling that this exist 
+    1. There are mutliple servers of a company ()
+    2. So there is a possibility they will also have multiple ip? 
+    3. We never actually call or request a server directly 
+
+
+HTTP vs HTTPS? 
+    What does S stand for? 
+
+URL components
+    www.google.com/search
+
+
+What is roleplay of HTML, CSS and JS in a website? 
+Visual demonstration of code arriving 
+
+Exploring the network tab of chrome dev tools 
+
+Diving a little deep into full stack discussion and understanding few more roleplays of server
+
+
+Server -> Web server -> 
+
+    Servers a lot -> 
+        File Servers
+        Data servers 
+        Mail server 
+
+
+Popular cloud examples  
+    Aws - amazon
+    Google - gcp 
+    microsft azure 
+
+    cloudflare 
+

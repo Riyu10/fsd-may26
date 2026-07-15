@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .card {
+            width: 280px;
+            
+        }
+
+    /* Image Wrapper with Rounded Corners and Fixed Aspect Ratio */
+        .image-container {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1 / 1; /* Makes the box a perfect square */
+            border-radius: 12px;
+            overflow: hidden;
+            }
+
+    /* Perfecting Image Fit (From our previous discussion!) */
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            }
+
+    /* Top Left Badges (Guest Favourite) */
+        .badge {
+            position: absolute;
+            border: none;
+            box-shadow: 0px 3px 3px #717171;
+            top: 12px;
+            left: 12px;
+            background-color: rgba(255, 255, 255, 0.95);
+            color: #222222;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 15px;
+            }
+
+        /* Top Right Heart Button */
+        .heart-btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: none;
+            border: none;
+            padding: 0;
+            width: 24px;
+            height: 24px;
+            }
+
+        .heart-btn svg {
+            fill: rgba(0, 0, 0, 0.5); /* Semi-transparent dark fill */
+            stroke: #ffffff;           /* Crisp white border */
+            stroke-width: 2.5;
+            overflow: visible;
+            }
+
+        /* Text Content Container */
+        .card-details {
+            padding-top: 12px;
+            }
+
+        /* Title & Rating alignment */
+        .title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
+            }
+
+        .title {
+            margin: 0;
+            font-size: 15px;
+            font-weight: 600;
+            color: #222222;
+            }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            font-size: 14px;
+            color: #222222;
+            }
+
+        .star {
+            font-size: 12px;
+            }
+
+        /* Pricing Section */
+        .price {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 600;
+            color: #222222;
+            }
+
+        .duration {
+            font-weight: 400;
+            color: #717171;
+            }
+    </style>
+</head>
+<body>
+    <div class="card">
+    <!-- Image Container with Absolute Badges -->
+        <div class="image-container">
+            <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1584107502244801818/original/3f3befb4-5bf0-40b0-b9e1-d62cb6acd043.jpeg?im_w=1200" alt="Home in Delhi">
+            <button class="badge">Guest favourite</button>
+            <button class="heart-btn">
+                <svg viewBox="0 0 32 32" xmlns="http://w3.org"><path d="M16 28c7-4.73 14-10 14-17A6.98 6.98 0 0 0 23 4c-3.1 0-5.3 1.95-7 4.14C14.3 5.95 12.1 4 9 4a6.98 6.98 0 0 0-7 7c0 7 7 12.27 14 17z"/></svg>
+            </button>
+        </div>
+
+        <!-- Content Details Section -->
+        <div class="card-details">
+            <div class="title-row">
+                <h3 class="title">Home in Delhi</h3>
+                <div class="rating">
+                    <span class="star">💞</span>
+                    <span class="score">4.88</span>
+                </div>
+            </div>
+            <p class="price">₹21,420 <span class="duration">for 2 nights</span></p>
+        </div>
+    </div>
+</body>
+</html>

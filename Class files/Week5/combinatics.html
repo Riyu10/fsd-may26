@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            background-color: aqua;
+        }
+        div > p{
+            color: crimson;
+        }
+        div p.specialp.special2{
+            border: 5px dashed blueviolet;
+        }
+        div p.specialp{
+            border: 2px solid black;
+        }
+        div + section{
+            font-style: italic;
+        }
+        div ~ p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="specialp special2">Lorem, ipsum.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div>
+        <section>
+            <p class="specialp">Lorem, ipsum dolor.</p>
+        </section>
+    </div>
+    <section>
+        <p>Lorem ipsum dolor sit.</p>
+    </section>
+</body>
+</html>

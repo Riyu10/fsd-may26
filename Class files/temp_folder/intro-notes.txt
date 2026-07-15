@@ -1,0 +1,269 @@
+Week 1 Session 1 -> Introduction to the software development industry and careers
+
+
+
+1. Content Person (non tech)
+
+    1. Make a website similar to flipkart
+    2. I am making a Anime selling merch website please create one for me. 
+
+
+    3. You are a senior software engineer who knows both frontend and backend development. 
+    I have a requirement - I am making a Anime selling merch website. 
+
+    Few Important things 
+        The codebase of frontend I need to build in next.js the version of next.js that we should be using is 16.x.x. The stable version
+        The Backend should only contain certain api's that are built within the next.js. We do not intend to use another tech for backend.
+        The Database I am open to exploring both sql and nosql. Lets discuss on the options of them and conclude on one. 
+
+    The website needs to be of a certain color code them -> 
+
+    Make the website in atomic components part. Do not over extend each function/components try to make new component out of it 
+
+    The requirements within the website -. 
+        1.
+        2.
+        3. 
+
+
+    Utilise AI to do your mundane task. and you be the driver of the product so that at the end you alsoo are confident to deliver the product. 
+
+
+Software Development Industry -> 
+    Tech solution -> 
+
+    Healthcare -> 
+        Patien Records
+        Duty Scheduling 
+        Monitoring System 
+        Inventory 
+        Pricing 
+
+    Finance -> 
+        Trading software 
+        HFT -> high frequency trading -> industry developers   (these companies are known to pay the most tech)
+        Company analysis -> 
+
+    Ecommerce -> 
+
+    Walmart -> (online) -> Logistics 
+
+
+    B2B solutions -> 
+    B2C solutions -> 
+
+    Google Map, Map my india
+
+
+Payment Solutions -> 
+    Razorpay, phonepe, payu, cashfree 
+
+    International -> 
+        Paypal, Stripe
+
+How a tech company is structed from CEO to Intern 
+    1. Code Expertise 
+    2. Accountability (ownership)
+    3. Cross Team Engagement ->
+
+
+Who all gets involved in making a product ->
+    1. Product Managers -> 
+        a. To lead the direction of a product in terms of what to build, when to build and why to build? 
+        b. The major goal is either to gain profit, gain market share, gain audience or some other key metric 
+        c. They convey to the developers what exactly to build, and they sit with designers
+        d. Does it meet expectation? Are they working fine (a high level overview)? 
+        e. Is the product / feature performing in the manner that they expected. 
+
+    2. Designers (UI UX) 
+        a. User Interface and User Experience 
+
+    3. Developers -> code 
+        Product feasibility in terms of code
+        Reaching the vision of product managers that they give in form of requirements 
+        Make the design / figma given to us by designers and code that to match it pixel by pixel 
+        Same Chiz -> 
+
+
+        Developers Pathways -> 
+            Web Developers -> Frontend Developers 
+                                
+
+            Android and Ios developers -> 
+
+            Backend Developers 
+
+            devops 
+
+            Cloud Enginners 
+
+            database enginners 
+
+            Ai developers 
+
+
+
+
+    4. QA -> Quality Assurance  (manual tester and autmation)
+        1. Scenarios and Test cases prepare -> to break the product 
+        2. QA raises bugs -> and they then tell developers to solve them, developers solve them and give them back to QA
+
+
+
+    5. Engineering -> 
+        1. Frontend Web Developers
+        2. Backend Developers 
+        3. Android Developers
+        4. IOS developers 
+        5. Devops -> 
+        6. AI developers -> 
+
+    6. SEO experts -> 
+
+    7. Marketing -> 
+        Advertisements (google advertisement, insta ads, facebook )
+        Campaigns -> 18-22 -> New delhi
+
+
+How a developers daily routine looks like? 
+    10am -> Standup prepare, task close, email, slack | teams | google hangout (whatsapp for companies )  ->
+
+    10:30am -> Standup -> small meetings -> daily update (what you did and what are you planning to do today),
+    in the existing tasks assigned to you are you facing any issue? are you dependdent on any other team for some requirement
+
+    Notion.so  -> explore -> 
+
+    Staging | Production -> Deployment -> 
+
+
+    Inbtro to web developement -> (timestamp: video 2:33s )
+
+
+Common mistakes to avoid -> 
+    Try to not use AI heavily 
+
+
+1. How Programming Actually works? 
+    Programming Terminologies -> *****************
+
+
+    Computer -> machine -> 
+        Automatically it cannot take any type of context? 
+            Bring me that bottle? 
+
+            Which bottle do you want me to bring? (ambigous) -> clear instructions 
+            What is the color of the bottle?
+            what is the ml capacity of the bottle? 
+
+            I do not know (error)
+
+    How a computer takes instructions????
+        Hardware -> 
+
+        Binary -> 0 and 1 -> this is what computer understands
+
+        a combination of 0 and 1 can lead to certain instruction passing -> 
+
+        Multiply x * y -> 0001111010101011111
+
+        Different types of programming languages -> 
+            In that we are sort of writing english characters -> which automatically internally gets converted
+            to binary 
+
+        
+        At the end objective of every language is to convert there code to a machine friendly code. No matter how they reach it.
+        Generally this can be done n 2 ways 
+            Interreter 
+
+            Compiler 
+
+        Every language might have a different syntax 
+
+
+        int -> integer (numeric value )
+
+        Every programming language has different kind of syntax 
+
+        Some popular programming languages? 
+            1. C 
+            2. C++
+            3. C#
+            4. Python
+            5. Ruby 
+            6. Java 
+            7. Php
+            8. Rust 
+            9. Scala
+            10. Javascript 
+            
+
+
+        Multiple languages -> 
+            Spanish
+            English
+            Hindi
+
+
+        //Psuedo code -> this is not a real code -> no language follows this. This is just logic being discussed 
+
+        Is a person eligible to vote or not? 
+
+        1. The person is eligible to vote when 18 years or greater 
+        2. Person age? 22 
+
+
+
+        What is run time???? write 
+
+        Execute 
+
+
+        There are some languages which are compiler based languages 
+            C++ 
+
+        There are some languages which are interperter langauages
+            Python
+
+        There are some languages which are both a combination of interperter and compiler 
+            Js 
+
+
+    JS -> 
+        certain words whose meaning is already defined within the langauge 
+            -> if 
+            -> else 
+            -> class
+            -> function 
+            -> const 
+            -> let 
+            -> var 
+
+        Variable -> userAge = 18;
+
+
+        voteEligibleAge 
+
+        systemSpecificationDescription = 'This is a i9 computer with 32gb ram and 1TB SSD'
+
+        systemSpecication
+
+
+        kebab case 
+            naman-jindal
+
+        snake case 
+            naman_jindal
+
+    
+
+        Operators -> 
+            Types 
+                1. Arthmetic (mathematical)
+                2. Logical 
+
+        
+        Complex Data type (data structure)
+            1. Array / List
+            2. Object / Map
+
+        Functions are reusable code blocks 

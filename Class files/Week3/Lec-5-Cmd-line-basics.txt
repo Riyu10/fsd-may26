@@ -1,0 +1,75 @@
+CLI vs GUI?
+
+1. For the basic things you can easily use a GUI but not all things can be acheived using, even if it can be ahcieved
+to find hte option on the GUI can be extremely tough
+2. Virtual machines -> CLI -> 
+3. Eventually we would be making our some own commands as well which you will be able to 
+utilsie only though CLI
+4. It is fast 
+
+
+Why do we need some additional things for windows but not for apple or linux
+
+WSL ->
+    windows key -> powershell -> run as adminesterator
+    open powershell in administertor mode 
+    1. wsl --install
+        it will be downloading few things (it might or might not take time according to internet andwidth)
+    2. username -> 
+    3. password, reconfirm 
+
+    4. wsl --status
+
+    5. cmd / powershell -> downarrow -> ubuntu (working)
+
+
+Debugging journey -> 
+
+Commands 
+    1. Echo
+    2. clear
+    3. ctrl + c -> to unstuck the terminal
+    4. pwd -> present work directory -> 
+    5. ls -> list
+    6. cd -> change directory
+    7. cd ..
+    8. cd ../..
+    9. cd ~ -> to go to root
+    10. rm 
+    11. rmdir
+    12. mkdir
+    13. mv -> move 
+    14. touch 
+
+
+    - is called as flag (optional things that you can enabel ina. command)
+
+Next Lecture (backlog)
+
+- nano command 
+- vim 
+- cat
+- rename files
+
+cp -> copy
+
+
+node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand
+
+
+
+Regex Expressions -> 
+
+. -> any single character 
+* -> multiple any characters
+^ -> start of an exression 
+$ -> end of an expression
+
+random.txt 
+randomtxt
+keybotxt
+
+.txt
+
+conclusion -> 
+    if you are using grep and regular expression do not forget to use '' quotes.
