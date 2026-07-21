@@ -1,0 +1,45 @@
+Introduction to Version Control & Git Basics
+
+
+96c48e61f2c0ef905d0168c390213c76e284a729
+
+
+. -> all 
+
+1. git init
+2. reference point -> git add <file_name>, git commit -m "commit-message"
+
+
+
+Software Layer Remotes ()
+1. Github
+2. Gitlab 
+3. bitbucket 
+4. azurebuckets 
+5. aws codecommit 
+
+concept of branches -> 
+
+
+gitignore -> 
+
+git remote add origin <url>
+git push --set-upstream origin main
+git branch abcd
+git checkout abcd
+git merge abcd 
+git remote -v 
+
+
+Green VS -> samrat -> remote (origin)
+neutral vs -> naman jindal -> remote (duplicate)
+
+original -> fork -> then clone the forked repo -> 
+    then add remote url of the original creator as well so that you can pull in the changes from time to time
+    
+    create a branch and code whatever is expected be it a feature or bug fix 
+    push the changes to your own forked repo
+    go to github you will see an option to raise a PR to the original creators codebase 
+    raise the pr 
+    
+    then the original creator has the option to review and if he/she finds it meaningful then merge your changes
