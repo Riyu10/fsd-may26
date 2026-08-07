@@ -26,3 +26,18 @@ for( let count = 5; count > 0; --count){
     }
     console.log(stringToBePrinted)
 }
+
+for( let count = 0; count < 5; ++count){
+    let stringToBePrinted = "";
+    for(let timesPrinted=0; timesPrinted < count; ++timesPrinted){
+        stringToBePrinted = stringToBePrinted + 1 + " ";
+    }
+    console.log(stringToBePrinted)
+}
+for( let count = 5; count > 0; --count){
+    let stringToBePrinted = "";
+    for(let timesPrinted=0; timesPrinted < count; ++timesPrinted){
+        stringToBePrinted = stringToBePrinted + 1 + " ";
+    }
+    console.log(stringToBePrinted)
+}
