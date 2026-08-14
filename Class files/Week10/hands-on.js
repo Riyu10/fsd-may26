@@ -29,18 +29,18 @@
 
 //print the index of first 5 target in array.
 
-const numToBeFound = 5;
-const arr=[5,12,3,5,13,56, 5, 5, 5, 89, 90, 67667, 54, 34, 5, 5, 67, 78, 5]
-let str = "";
-let num = 0;
-const numOfInstances = 5;
+// const numToBeFound = 5;
+// const arr=[5,12,3,5,13,56, 5, 5, 5, 89, 90, 67667, 54, 34, 5, 5, 67, 78, 5]
+// let str = "";
+// let num = 0;
+// const numOfInstances = 5;
 
-for(i = 0; i < arr.length; i++){
-    if(arr[i] == numToBeFound){
-        num++;
-        if(num <= numOfInstances){
-            str += (i) + ' ';
-        }
-    }
-}
-console.log(str)
+// for(i = 0; i < arr.length; i++){
+//     if(arr[i] == numToBeFound){
+//         num++;
+//         if(num <= numOfInstances){
+//             str += (i) + ' ';
+//         }
+//     }
+// }
+// console.log(str)
