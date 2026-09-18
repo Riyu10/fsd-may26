@@ -1,0 +1,45 @@
+1. GET:www.amazon.com/products-all
+2. GET:www.amazon.com/samsung-galaxy-s8
+3. POST:www.amazon.com/newProduct-samsung-galaxy-s10
+4. PUT:www.amazon.com/samsung-galaxy-s10-newPrice
+5. DELETE:www.amazon.com/apple-iphone-4
+6. DELETE:www.amazon.com/products-all
+
+advanced:
+1. GET:www.amazon.com/page-1
+2. GET:www.amazon.com/page-1/entries-10
+
+
+action: URL(domain-name/a-slug-product-name/unique-ID)
+
+PATCH www.nj.com/product/Unique-id/new-price
+
+gemini code:-
+**************************************************************************************
+
+const nam = document.querySelector('#name');
+const age = document.querySelector('#age');
+const address = document.querySelector('#address');
+const clase = document.querySelector('#class');
+
+// 1. Load saved values on page load
+nam.value = localStorage.getItem('name') || '';
+age.value = localStorage.getItem('age') || '';
+address.value = localStorage.getItem('address') || '';
+clase.value = localStorage.getItem('class') || '';
+
+// 2. Save values on user input
+const fields = [
+  { el: nam, key: 'name' },
+  { el: age, key: 'age' },
+  { el: address, key: 'address' },
+  { el: clase, key: 'class' },
+];
+
+fields.forEach(({ el, key }) => {
+  el.addEventListener('input', () => {
+    localStorage.setItem(key, el.value);
+  });
+});
+
+********************************************************************************
